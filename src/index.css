@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9e1ec5;
+
+  text-align: center;
+  margin-top: 25px;
+  width: 100%;
+  height: 700px;
+}
+#myButton {
+  font-size: 40px;
+}
+#urlChecker {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: #9e1ec5;
+  border-width: 5%;
+  font-size: 40px;
+}
+#myForm {
+  font-size: 40px;
+}
+#url {
+  background-color: #bf99ca;
+  height: auto;
+  width: 50%;
+  top: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.shortener__copy button {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+.shortener__copy button:hover {
+  color: rgb(130, 130, 149);
+}
