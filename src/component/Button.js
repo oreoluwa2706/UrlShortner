@@ -33,7 +33,8 @@ const Button = () => {
           />
           <button id="myButton">Submit</button>
         </form>
-        {shortendUrl && <div className="shortener__copy">{shortendUrl}</div>}
+        {/* shortendUrl &&*/}{" "}
+        <div className="shortener__copy">{shortendUrl}</div>
       </div>
       <Copy />
     </div>
